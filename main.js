@@ -47,7 +47,7 @@ scene.add(groundMesh);
 const PointLight = new THREE.PointLight(0xffffff,30);
 const lighthelper = new THREE.PointLightHelper(PointLight);
 scene.add(lighthelper);
-PointLight.position.set(5, 4, 0,);
+PointLight.position.set(0, 5, -2);
 PointLight.castShadow = true;
 PointLight.shadow.bias = -0.0001;
 scene.add(PointLight);
@@ -56,7 +56,6 @@ scene.add(PointLight);
 
 const AmbientLight = new THREE.AmbientLight(0xffffff);
 scene.add(AmbientLight);
- 
 
 
 
